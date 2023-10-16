@@ -6,6 +6,7 @@ import ContactsList from './ContactsList';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact, removeContactById } from 'redux/phonebook.slice';
 
+
 function App() {
   const dispatch = useDispatch();
   const contacts = useSelector(state => state.phonebook.contacts.items);

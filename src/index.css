@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize; 
 
 body {
   margin: 0;
@@ -7,12 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./images/tel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 code {
@@ -28,6 +24,10 @@ h5,
 h6,
 p {
   margin: 0;
+  color: #0004ff;
+    font-size: 36px;
+    margin: 0;
+ 
 }
 
 ul,
