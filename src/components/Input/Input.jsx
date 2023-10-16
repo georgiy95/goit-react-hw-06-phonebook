@@ -1,8 +1,9 @@
-import { filteringContacts } from 'components/redux/filterSlice';
-import { getFilter } from 'components/redux/selectos';
+import { filteringContacts } from 'redux/filterSlice';
+import { getFilter } from 'redux/selectos';
 import { useDispatch, useSelector } from 'react-redux';
+import css from './Input.module.css';
 
-export const Filter = () => {
+export const Input = () => {
   const dispatch = useDispatch();
   const filter = useSelector(getFilter);
 
@@ -14,7 +15,7 @@ export const Filter = () => {
   return (
     <label>
       Find contacts by name
-      <input type="text" value={filter} onChange={handlFilteringContacts} />
+      <input className={css.input} type="text" value={filter} onChange={handlFilteringContacts} />
     </label>
   );
 };
