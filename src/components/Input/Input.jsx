@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import css from './InputField.module.css';
+import css from './Input.module.css';
 
-const InputField = ({ ...other }) => {
+const Input = ({ ...other }) => {
   const {
     label,
     value,
@@ -32,7 +32,7 @@ const InputField = ({ ...other }) => {
   );
 };
 
-InputField.protoTypes = {
+Input.protoTypes = {
   label: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
@@ -43,4 +43,4 @@ InputField.protoTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
-export default InputField;
+export default Input;

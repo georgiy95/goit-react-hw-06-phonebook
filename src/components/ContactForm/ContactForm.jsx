@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import InputField from '../InputField';
+import InputField from '../Input';
 import PropTypes from 'prop-types';
 import css from './ContactForm.module.css';
 

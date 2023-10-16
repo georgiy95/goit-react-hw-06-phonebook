@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { getFilter, setFilterValue } from 'redux/phonebook.slice';
 import PropTypes from 'prop-types';
-import InputField from 'components/InputField';
+import InputField from 'components/Input';
 import css from './ContactsList.module.css';
 
 const ContactsList = ({ contacts, onClickDelete }) => {
