@@ -1,6 +1,6 @@
 import { Section } from './Section/Section';
 import { ContactForm } from './ContactForm/ContactForm';
-import { Contacts } from './ContactsList/ContactsList';
+import { ContactsList } from './ContactsList/ContactsList';
 import { Input } from './Input/Input';
 
 const App = () => {
@@ -11,9 +11,9 @@ const App = () => {
       </Section>
 
       <Section title="Contacts">
-        <Contacts>
+        <ContactsList>
           <Input />
-        </Contacts>
+        </ContactsList>
       </Section>
     </div>
   );
