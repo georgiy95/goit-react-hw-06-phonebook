@@ -10,10 +10,9 @@ const App = () => {
         <ContactForm />
       </Section>
 
-      <Section title="Contacts">
-        <ContactsList>
-          <Input />
-        </ContactsList>
+      <Section title="Contacts"> 
+      <Input />
+        <ContactsList />
       </Section>
     </div>
   );
